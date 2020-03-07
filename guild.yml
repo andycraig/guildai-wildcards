@@ -1,0 +1,7 @@
+- model: all-files
+  operations:
+    train:
+      main: train
+      requires:
+        - file: .
+          select: data.*\.csv
